@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anandhidha | AI & Data Science Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0b0b12;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: #11111b;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #b69cff;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #b69cff;
+}
+
+section {
+    padding: 85px 10%;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 7vw, 65px);
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #b69cff;
+}
+
+.hero h2 {
+    color: #c5b7e9;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.hero p {
+    color: #aaa;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #a78bfa;
+    color: #111;
+    padding: 12px 25px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.btn:hover {
+    background: #c4b5fd;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #b69cff;
+    margin-bottom: 25px;
+}
+
+.content {
+    color: #c2c2cc;
+    max-width: 850px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #151522;
+    border: 1px solid #29283a;
+    padding: 22px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #a78bfa;
+}
+
+.card h3 {
+    color: #c4b5fd;
+    margin-bottom: 10px;
+}
+
+.card p, .card li {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.card ul {
+    padding-left: 18px;
+}
+
+.cert {
+    margin-bottom: 16px;
+}
+
+.cert strong {
+    color: #eee;
+}
+
+.cert small {
+    display: block;
+    color: #a78bfa;
+    margin-top: 4px;
+}
+
+a {
+    color: #b69cff;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.contact-links a {
+    text-decoration: none;
+    border: 1px solid #a78bfa;
+    padding: 10px 18px;
+    border-radius: 7px;
+}
+
+.contact-links a:hover {
+    background: #a78bfa;
+    color: #111;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #11111b;
+    color: #888;
+    font-size: 13px;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    section {
+        padding: 65px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">ANANDHIDHA.</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section class="hero" id="home">
+    <h2>Hello, I'm</h2>
+    <h1><span>ANANDHIDHA</span></h1>
+    <h2>BCA Student | AI & Data Science Enthusiast</h2>
+
+    <p>
+        Exploring Artificial Intelligence, Machine Learning and Data Science.
+        Passionate about learning new technologies, developing technical
+        skills and building a career in the world of AI.
+    </p>
+
+    <a class="btn" href="#about">Explore My Portfolio</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+
+    <p class="content">
+        I am a Bachelor of Computer Applications student at Yenepoya
+        (Deemed to be University), Mangalore, specializing in Artificial
+        Intelligence and Data Science.
+
+        I am interested in Artificial Intelligence, Machine Learning,
+        Python programming and Data Analytics. I continuously work on
+        improving my technical knowledge through online courses,
+        certifications and practical learning.
+
+        My goal is to gain industry experience and build a successful
+        career in the technology field.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2 class="section-title">Skills & Learning Areas</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Programming</h3>
+            <ul>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>R Programming</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Artificial Intelligence</h3>
+            <ul>
+                <li>AI Fundamentals</li>
+                <li>Azure AI Fundamentals</li>
+                <li>Neural Networks</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Machine Learning</h3>
+            <ul>
+                <li>Machine Learning Concepts</li>
+                <li>Neural Network Fundamentals</li>
+                <li>Machine Learning with Neural Networks</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Data Science & Analytics</h3>
+            <ul>
+                <li>Data Analysis</li>
+                <li>Python for Data Science</li>
+                <li>Data Handling</li>
+                <li>Pandas & NumPy</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Database</h3>
+            <ul>
+                <li>SQL</li>
+                <li>Relational Database Fundamentals</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Cloud & Microsoft Azure</h3>
+            <ul>
+                <li>Azure AI Fundamentals</li>
+                <li>Azure Data Fundamentals</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Image Processing</h3>
+            <ul>
+                <li>Image Segmentation</li>
+                <li>Image Filtering</li>
+                <li>Region Analysis</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Tools & Technologies</h3>
+            <ul>
+                <li>Linux Commands</li>
+                <li>Shell Scripting</li>
+                <li>Jupyter Notebook</li>
+                <li>VS Code</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Bachelor of Computer Applications</h3>
+            <p>Yenepoya (Deemed to be University)</p>
+            <p>Mangalore, Karnataka</p>
+            <p>Specialization: AI & Data Science</p>
+            <p>Expected Graduation: 2027</p>
+        </div>
+
+        <div class="card">
+            <h3>Higher Secondary Education</h3>
+            <p>Palora HSS, Kerala</p>
+            <p>Kerala State Board | 2024</p>
+            <p>Percentage: 74%</p>
+        </div>
+
+        <div class="card">
+            <h3>SSLC</h3>
+            <p>Palora HSS, Kerala</p>
+            <p>Kerala State Board | 2023</p>
+            <p>Percentage: 92%</p>
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="cards">
+
+        <div class="card cert">
+            <strong>Microsoft Certified: Azure Data Fundamentals</strong>
+            <small>Issued by Microsoft</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Microsoft Certified: Azure AI Fundamentals</strong>
+            <small>Issued by Microsoft</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Data Analysis with R Programming</strong>
+            <small>Issued by Google | Coursera</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Introduction to Artificial Intelligence (AI)</strong>
+            <small>Issued by IBM | Coursera</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Machine Learning with Neural Networks</strong>
+            <small>Issued by Dartmouth College | Coursera</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Image Segmentation, Filtering, and Region Analysis</strong>
+            <small>Issued by MathWorks | Coursera</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Python for Data Science, AI & Development</strong>
+            <small>Issued by IBM | Coursera</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Python Project for Data Science</strong>
+            <small>Issued by IBM | Coursera</small>
+        </div>
+
+        <div class="card cert">
+            <strong>The Structured Query Language (SQL)</strong>
+            <small>Issued by University of Colorado Boulder | Coursera</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Linux Commands & Shell Scripting Essentials V2</strong>
+            <small>Issued by Coursera | Authorized by IBM</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Introduction to Neural Networks</strong>
+            <small>Coursera course</small>
+        </div>
+
+        <div class="card cert">
+            <strong>Introduction to Relational Databases</strong>
+            <small>Coursera course</small>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Projects Coming Soon</h3>
+            <p>
+                I am currently developing my practical skills in
+                Python, Machine Learning and Data Science.
+                More projects will be added here soon.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2 class="section-title">Let's Connect</h2>
+
+    <p class="content">
+        I am open to learning opportunities, internships,
+        collaborations and connecting with professionals
+        in the technology industry.
+    </p>
+
+    <div class="contact-links">
+        <a href="https://linkedin.com/in/anandhidha-shaji-880912437"
+           target="_blank">LinkedIn</a>
+
+        <a href="https://github.com/Anandhidhashaji"
+           target="_blank">GitHub</a>
+
+        <a href="https://www.credly.com/users/anandhidha"
+           target="_blank">Credly</a>
+    </div>
+</section>
+
+<footer>
+    © 2026 ANANDHIDHA | AI & Data Science Portfolio
+</footer>
+
+</body>
+</html>
+
+
+
